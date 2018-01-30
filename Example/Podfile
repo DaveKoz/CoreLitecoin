@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'CoreLitecoin_Example' do
+  pod 'CoreLitecoin', :path => '../'
+
+  target 'CoreLitecoin_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
